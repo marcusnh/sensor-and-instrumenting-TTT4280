@@ -1,0 +1,15 @@
+For task 1a) we have:
+The PMAG is 0.08446
+The resolution for the image is 40.84967 μm
+For task 1b) we have:
+The PMAG is 0.13200
+The resolution for the image is 83.33333 μm
+The biggest practical difference between a) and b) will be the resolution quality
+The resoltion for 512 pixels is 195.31250 μm
+The resoltion for 256 pixels is 390.62500 μm
+The resoltion for 128 pixels is 781.25000 μm
+By reducing the number of pixels the resolution will deteriorate. This is because that each pixels  has a bigger area to cover when we get fewer pixels
+For task 1d):
+The advantages in reducing the number of active pixels for a sensor is that it´s easier to scale it down the noise.
+A larger pixcel collect more "good" data than smaller pixels. If we have a small camera than we should use a high pixel count. 
+We therefor have to balance the pixel size and the sensor size to get the best quality.

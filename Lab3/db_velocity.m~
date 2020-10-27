@@ -1,0 +1,24 @@
+path = 'k3.bin';
+[rawData, nomTp] = raspiImport(path,channels);
+
+c=3*10^
+
+Ii=rawData(:,4:4);
+Iq=rawData(:,5:5);
+
+%remove DC-component
+
+Ii=Ii-mean(Ii);
+Iq=Iq-mean(Iq);
+
+%complex version:
+
+img=Ii+1i*Iq;
+img_fft=fftshift(fft(img));
+
+% make plot:
+
+
+
+
+
